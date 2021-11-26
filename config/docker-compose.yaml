@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  openCV_server:
+    image: openCV_server
+    build: ..
+    ports:
+      - "8888/udp:8888/udp"

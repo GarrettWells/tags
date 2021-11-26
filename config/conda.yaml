@@ -1,0 +1,6 @@
+name: openCV_server
+channels:
+  - defaults
+dependencies:
+  - numpy=1.21.2
+  - python=3.9.7
